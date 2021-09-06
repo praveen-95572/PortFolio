@@ -1,0 +1,229 @@
+/*body font */
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap');
+
+/* handwriting font */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Niconne&display=swap');
+
+/* signature */
+@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
+
+
+
+*{
+  font-family: 'Aref Ruqaa', serif;
+  background-color: rgba(245, 245, 256, 0.911);
+}
+ /* ---------------  Navbar -----------------  */
+
+.navbar{
+    background-color: #fff;
+  }
+  
+  .navbar-brand{
+    font-size: 1.9rem !important;
+    font-family: 'WindSong', cursive;
+    padding: 10px;
+    border: 2px groove rgb(238, 165, 165);
+    box-shadow: 5px 5px 5px grey;
+  }
+  
+  .navbar a{
+    font-size: 1.3rem;
+    color: #445058 !important;
+    margin: 0 30px;
+    text-transform: capitalize;
+  }
+  
+
+  .navbar a:hover{
+    color: #3498db !important;
+  }
+  
+  .menu_active{
+    font-weight: bold;
+    border-bottom: 1px solid #565387;
+  }
+  
+  .navbar-nav{
+      margin-left: 25px;
+  }
+  
+ /*------------------ Home ----------------*/
+.main-header{
+    text-align: center;
+}
+ .main-header h1{
+     font-weight: 900;
+     letter-spacing: 2px;
+     
+ }
+ .main-header p{
+    font-family: 'WindSong', cursive;
+    font-size: 1.9rem;
+    font-weight: bolder;
+ }
+ .main-header p+p{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+ }
+.main-header p+p b{
+    color: blue;
+    font-variant: small-caps;
+    font-size: 2rem;
+ }
+
+ .header-img{
+    text-align: right;
+  }
+.header-img img{
+    width: 80%;
+}
+.upDown{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.social a{
+    padding: 0 10px;
+}
+.social i{
+    font-size: 2.5rem;
+}
+.social {
+    margin: 10px 0 !important;
+}
+
+.btn-get-started{
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 30px !important;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #3498db;
+    border: 2px solid #3498db;
+    text-decoration: none;
+  }
+  
+  .btn-get-started:hover{
+    background: #3498db;
+    color:#fff;
+  }
+
+  .jumbotron h1{
+      word-spacing: 2px;
+      font-weight: bolder;
+  }
+  .skills ul li{
+      font-size: 1.3rem;
+      color: blueviolet;
+  }
+
+    .skill-img li{
+        display: inline-block;
+        padding: 5px;
+    }
+
+/*--------------Education--------*/
+.college{
+    margin:2% 20%;
+    width: 60%;
+    border-bottom: 5px solid rgb(57, 58, 56);
+    border-top:5px solid rgb(41, 75, 6);
+    border-radius: 50%;
+}
+.college img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.education{
+    border: 2px groove rgb(238, 165, 165);
+    box-shadow: 10px 10px 5px grey;
+}
+.education .card-header p+p span{
+    float: right;
+}
+footer{
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+/*---------Contact-------*/
+.profile{
+    margin:2% 20%;
+    width: 60%;
+    border-bottom: 5px solid rgb(57, 58, 56);
+    border-top:5px solid rgb(41, 75, 6);
+    border-radius: 50%;
+}
+
+.profile  img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+/*---------------Projects--------------*/
+.proj-card{
+    border: 2px groove rgb(238, 165, 165);
+    box-shadow: 5px 5px 5px grey;
+    overflow-y: hidden;
+    min-height: 300px;
+}
+.proj-card a{
+    text-decoration: none;
+    background-color:rgb(206, 187, 195);
+    min-height: 300px;
+}
+.proj-card .card-body{
+   background-color:rgb(206, 187, 195);
+   padding: 30px;
+   min-height: 325px;
+
+}
+.proj-card h5{
+    padding: 10px;
+    font-size: 1.8rem;
+    color: slategray;
+    font-weight: bolder;
+    background-color:rgb(206, 187, 195);
+    text-align: center;
+}
+.proj-card p{
+    padding: 2px 10px;
+    font-size: 1rem;
+    color: slategray;
+    font-weight: bolder;
+    background-color:rgb(206, 187, 195);
+    text-align: center;
+}
+.proj-card p+p{
+    float: left;
+    background-color:rgb(206, 187, 195);
+}
+.proj-card ul{
+    float: right;
+    background-color:rgb(206, 187, 195);
+    
+}
+.proj-card ul li{
+    background-color:rgb(206, 187, 195);
+    display: inline-block;
+}
+
+/* Responsive code */
+
+
+@media (max-width:991px){
+    .navbar-brand{
+      font-size: 1.5rem !important;
+    }
+    .menu_active{
+      border-bottom: none;
+    }
+  }
+  

@@ -1,0 +1,39 @@
+.slideInLeft {
+
+    animation:slideInLeft ;
+    animation-duration: 2s; 
+  }
+
+.slideInRight {
+
+    animation: slideInRight;
+    animation-duration: 2s;   }
+
+.slideInDown {
+        animation: slideInDown; 
+        animation-duration: 2s; 
+      }
+.slideInUp {
+        animation: slideInUp; 
+        animation-duration: 2s; 
+      }
+
+.fadeIn{
+    animation: fadeIn;
+    animation-duration: 2000ms;
+}
+.heartbeat{
+    animation: headShake;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+
+@keyframes up-down {
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
